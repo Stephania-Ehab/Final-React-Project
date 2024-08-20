@@ -1,0 +1,178 @@
+/* Base styles */
+.movie-details-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #333;
+  background-color: #fff; /* Default light mode background */
+}
+
+.movie-header {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.movie-poster {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movieInfo {
+  margin-left: 20px;
+  max-width: 600px;
+}
+
+.movie-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.movie-meta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.movie-ratings {
+  font-size: 1.2rem;
+  color: #FFD700;
+  margin-right: 15px;
+}
+
+.movie-release-date {
+  font-size: 1rem;
+  color: #888;
+  margin-right: 15px;
+}
+
+.movie-favorite-icon {
+  font-size: 1.5rem;
+  color: #FFD700;
+  cursor: pointer;
+}
+
+.movie-description {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.movie-genres {
+  margin-bottom: 15px;
+}
+
+.movie-genre {
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+.movie-duration,
+.movie-language {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.movie-production-logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.movie-website {
+  color: #007BFF;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.recommendations-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.recommendations {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.recommendation-card {
+  flex: 0 0 150px; /* Flex-grow 0, Flex-shrink 0, Basis 150px */
+  background-color: #fff; /* Default light mode background */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.recommendation-poster {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.recommendation-title {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.recommendation-rating {
+  font-size: 1rem;
+  color: #FFD700;
+}
+
+.movie-favorite-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: grey; /* Default color */
+  transition: color 0.3s ease;
+}
+
+.movie-favorite-icon.active {
+  color: red; /* Color when the movie is in the watchlist */
+}
+
+.movie-favorite-icon:hover {
+  color: darkred; /* Color on hover */
+}
+
+/* Dark mode styles */
+.bg-dark .movie-details-page {
+  background-color: #333; /* Dark mode background */
+  color: #fff; /* Dark mode text color */
+}
+
+.bg-dark .movie-header {
+  color: #fff; /* Text color in dark mode */
+}
+
+.bg-dark .movie-genre {
+  background-color: #555; /* Dark mode genre background */
+}
+
+.bg-dark .movie-favorite-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: grey; /* Default color */
+  transition: color 0.3s ease;
+}
+
+.bg-dark .movie-favorite-icon.active {
+  color: red; /* Color when the movie is in the watchlist */
+}
+
+.bg-dark .movie-favorite-icon:hover {
+  color: darkred; /* Color on hover */
+}
+
+.bg-dark .recommendation-card {
+  background-color: #444; /* Dark mode recommendation card background */
+}
+
+.bg-dark .movie-website {
+  color: #1e90ff; /* Dark mode link color */
+}
