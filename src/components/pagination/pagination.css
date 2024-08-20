@@ -36,7 +36,7 @@
   }
   
   .pagination-number.active {
-    background-color: #ffd700; /* Yellow background for active page */
+    background-color: #ffd700;
     color: #fff;
   }
   

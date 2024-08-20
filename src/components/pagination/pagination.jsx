@@ -1,26 +1,8 @@
-// import React from 'react';
-
-// function Pagination({ page, setPage }) {
-//   return (
-//     <div className="pagination">
-//       <button onClick={() => setPage(page - 1)} disabled={page === 1}>
-//         Previous
-//       </button>
-//       <span>{page}</span>
-//       <button onClick={() => setPage(page + 1)}>
-//         Next
-//       </button>
-//     </div>
-//   );
-// }
-
-// export default Pagination;
-
 import React from 'react';
 import './pagination.css';
 
 function Pagination({ page, setPage }) {
-  const totalPages = 10; // Example total pages
+  const totalPages = 10;
 
   return (
     <div className="pagination">

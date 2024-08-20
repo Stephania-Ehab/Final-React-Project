@@ -1,4 +1,3 @@
-MovieCard.css
 .movie-card {
   position: relative;
   background-color: #fff;
@@ -20,15 +19,12 @@ MovieCard.css
 }
 
 .movie-rating {
-  /* position: absolute;
-  top: 10px;
-  left: 10px; */
   background-color: #4caf50;
   color: white;
   padding: 5px 10px;
   border-radius: 50%;
   font-weight: bold;
-  width: 55px;
+  width: 60px;
 }
 
 .movie-info h3 {
@@ -47,33 +43,13 @@ MovieCard.css
     cursor: pointer;
     transition: color 0.3s ease;
     font-size: 1.5rem;
-    color: grey; /* Initial color */
+    color: grey; 
   }
   
   .heart.in-watchlist {
-    color: red; /* Change to red when added to watchlist */
+    color: red; 
   }
   
-  /* .heart-button:hover {
-    color: #ffcccc; 
-  } */
-
-/* .favorite-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1.5em;
-  margin-top: 10px;
-}
-
-.favorite-button span {
-  color: grey;
-  transition: color 0.3s ease;
-}
-
-.favorite-button span:hover {
-  color: #FFD700;
-} */
 
 .movie-card:hover {
   transform: translateY(-5px);

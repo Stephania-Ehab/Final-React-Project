@@ -1,58 +1,16 @@
-/* 
-.navbar {
-    background-color: #fcd703; 
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid black;
-  }
-  
-  .navbar-brand {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    color: black;
-  }
-  
-  .navbar-brand a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .navbar-nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-  }
-  
-  .nav-item {
-    margin-left: 20px;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-  }
-  
-  .nav-link:hover {
-    color: #444;
-  }
-  
-   */
-
    .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFD700; /* Yellow background */
+    background-color: #FFD700; 
     padding: 15px 30px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
+  }
+
+  .header-logo {
+    display: flex;
+    align-items: center;
   }
   
   .navbar.dark-mode {
@@ -64,6 +22,7 @@
     font-weight: bold;
     color: #000;
     margin: 0;
+    padding-left: 10px;
   }
   
   .navbar-brand a {
@@ -94,7 +53,7 @@
   }
   
   .navbar-links a:hover {
-    color: #333; /* Slightly darken on hover */
+    color: #333; 
   }
   
   .icon-heart {
@@ -116,8 +75,7 @@
     font-size: 20px;
   }
   
-  /* Adjustments for dark mode */
-  .dark-mode .navbar-brand, .dark-mode .navbar-links a {
+  .dark-mode .navbar-brand, .dark-mode .navbar-links a  {
     color: #fff;
   }
-  
+ 
